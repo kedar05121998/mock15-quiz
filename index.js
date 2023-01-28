@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require('cors')
-const { Connection } = require("./config/db")
+const { Connection } = require("./Config/db")
 const { UserModel } = require("./Models/quiz.model")
 const PORT = process.env.PORT || 8000
 
